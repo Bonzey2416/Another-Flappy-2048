@@ -606,8 +606,8 @@ var getValueStr = function (num) {
 
 
 var text_colors = ['606060', '606060', '606060', 'ffffff'];
-var tile_colors = ['eeeeee', 'eae8e4', 'ede0c8', 'f2b179', 'f59563', 'f67c5f', 'f65e3b', 'edcf72', 'edcc61', 'edc850', 'edc53f', 'edc53f', '3c3a32'];
-var tile_colors_2 = ['4c4c4c', '5c5c5c', '4c5c6c', '4c4c7c', '3c3c6c', '2c2c5c', '2c3c4c', '2c4c3c', '2c5c2c', '3c3a32'];// 'c050c0', '9050ff', '5090ff', '60b060', '40b0b0', 'b0b040', '3c3a32'];
+var tile_colors = ['eeeeee', 'eae8e4', 'f0d7aa', 'f2b179', 'f59563', 'f67c5f', 'f65e3b', 'ff273b', 'ff5c27', 'ee8144', 'd2a144', 'edc53f', 'd1c916'];
+var tile_colors_2 = ['9ddb31', '77db1c', '00ff00', '00ff7f', '007fff', '1f5f7f', '3f3f3f', '7f7f7f', 'bf9f7f', 'ffdfbf'];// 'c050c0', '9050ff', '5090ff', '60b060', '40b0b0', 'b0b040', '3c3a32'];
 
 function newCell () {
  var cell = {};
