@@ -1,5 +1,4 @@
-
-document.body.style.margin = '0px';
+ document.body.style.margin = '0px';
 document.body.style.overflow = 'hidden';
 
 
@@ -309,8 +308,6 @@ game.canvas = document.createElement('canvas');
 game.canvas.width = ww;
 game.canvas.height = hh;
 game.ctx = game.canvas.getContext('2d');
-
-
 game.ctx.fillStyle = '#71c5cf';
 game.ctx.fillRect(0, 0, ww, hh);
 */
@@ -550,7 +547,6 @@ for (var i = 0; i<scpts.length; i++) {
    -webkit-user-select: none; // Chrome/Safari
    -moz-user-select: none; // Firefox
    -ms-user-select: none; // IE10+
-
    // Rules below not implemented in browsers yet
    -o-user-select: none;
    user-select: none;
@@ -636,7 +632,6 @@ function newCell () {
  div.style.fontSize = '70px';
  div.style.color = '#606060';
   div.style.fontVariantNumeric: 'tabular-nums';
- div.style.textShadow: '0 0 16px black';
  div.style.fontWeight = '300';
  div.style.fontVariationSettings = "'wght' 1000, 'GRAD' 1000";
  div.style.marginTop = 'auto';
