@@ -536,6 +536,7 @@ for (var i = 0; i<scpts.length; i++) {
  div.style.fontFamily = '"roboto", "Helvetica Neue", Arial, sans-serif';
  div.style.fontWeight = '300';
  div.style.fontSize = '40px';
+ div.style.fontVariantNumeric: 'proportional-nums';
  div.style.color = '#faf8ef';
  div.style.zIndex = 88887;
  div.style['user-select'] = 'none';
@@ -634,6 +635,7 @@ function newCell () {
  div.style.fontFamily = '"SF Rounded", "Roboto", "Helvetica Neue", Arial, sans-serif';
  div.style.fontSize = '70px';
  div.style.color = '#606060';
+  div.style.fontVariantNumeric: 'tabular-nums';
  div.style.fontWeight = '300';
  div.style.fontVariationSettings = "'wght' 1000, 'GRAD' 1000";
  div.style.marginTop = 'auto';
